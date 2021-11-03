@@ -59,29 +59,36 @@ p {
   margin-left: 20px;
 }
 
-.curiosidade a {
-  color: rgb(231, 65, 65);
-  font-style: italic;
-  text-decoration: none;
-}
-
 p:last-of-type {
   text-align: right;
 }
 
-a[href^="http"]{
-  color: rgb(14, 98, 255)
-}
-
-a.visited {
+a:hover {
   color: grey;
+  text-decoration: none;
 }
 
+a:link {
+  color: green;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: blue;
+}
+
+a[href^="http"] {
+  background-color: rgba(159, 255, 155, 0.5);
+}
 
 #cancelar-flutuacao {
   clear: right;
 }
 
-img:not([alt]){
+
+img:not([alt]) {
   border: 5px solid red;
 }
